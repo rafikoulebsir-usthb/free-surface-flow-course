@@ -47,12 +47,16 @@ const CHAPTERS: Chapter[] = [
   },
   {
     number: '04',
-    to: '/cours/geometrie-canaux',
-    title: <Translate id="outline.ch4.title">Géométrie des canaux</Translate>,
+    to: '/cours/ecoulement-graduellement-varie',
+    title: (
+      <Translate id="outline.ch6.title">
+        Écoulement graduellement varié
+      </Translate>
+    ),
     summary: (
-      <Translate id="outline.ch4.summary">
-        Section mouillée, périmètre mouillé, rayon hydraulique et sections
-        usuelles : rectangulaire, trapézoïdale, circulaire.
+      <Translate id="outline.ch6.summary">
+        Équation de la courbe de remous, profils M, S, C, H, A et méthodes
+        d’intégration numérique.
       </Translate>
     ),
   },
@@ -69,21 +73,6 @@ const CHAPTERS: Chapter[] = [
   },
   {
     number: '06',
-    to: '/cours/ecoulement-graduellement-varie',
-    title: (
-      <Translate id="outline.ch6.title">
-        Écoulement graduellement varié
-      </Translate>
-    ),
-    summary: (
-      <Translate id="outline.ch6.summary">
-        Équation de la courbe de remous, profils M, S, C, H, A et méthodes
-        d’intégration numérique.
-      </Translate>
-    ),
-  },
-  {
-    number: '07',
     to: '/cours/ouvrages-hydrauliques',
     title: <Translate id="outline.ch7.title">Ouvrages hydrauliques</Translate>,
     summary: (

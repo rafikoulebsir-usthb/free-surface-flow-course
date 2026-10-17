@@ -1,0 +1,9 @@
+{
+  "label": "4. Écoulement graduellement varié",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Charge spécifique et régime critique, équation de la courbe de remous, classification des profils (M, S, C, H, A), méthodes de résolution.",
+    "slug": "/ecoulement-graduellement-varie"
+  }
+}

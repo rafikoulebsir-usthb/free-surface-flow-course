@@ -27,14 +27,6 @@
     "message": "Hydraulic head, head loss, the Chézy and Manning-Strickler formulas, normal depth and composite roughness.",
     "description": "The generated-index page description for category '3. Écoulement uniforme' in sidebar 'coursSidebar'"
   },
-  "sidebar.coursSidebar.category.4. Géométrie des canaux": {
-    "message": "4. Channel geometry",
-    "description": "The label for category '4. Géométrie des canaux' in sidebar 'coursSidebar'"
-  },
-  "sidebar.coursSidebar.category.4. Géométrie des canaux.link.generated-index.description": {
-    "message": "Geometric elements of a cross-section, hydraulic radius, common channel shapes.",
-    "description": "The generated-index page description for category '4. Géométrie des canaux' in sidebar 'coursSidebar'"
-  },
   "sidebar.coursSidebar.category.5. Ressaut hydraulique": {
     "message": "5. Hydraulic jump",
     "description": "The label for category '5. Ressaut hydraulique' in sidebar 'coursSidebar'"
@@ -43,21 +35,21 @@
     "message": "The momentum theorem, conjugate depths, energy loss and stilling basins.",
     "description": "The generated-index page description for category '5. Ressaut hydraulique' in sidebar 'coursSidebar'"
   },
-  "sidebar.coursSidebar.category.6. Écoulement graduellement varié": {
-    "message": "6. Gradually varied flow",
-    "description": "The label for category '6. Écoulement graduellement varié' in sidebar 'coursSidebar'"
+  "sidebar.coursSidebar.category.4. Écoulement graduellement varié": {
+    "message": "4. Gradually varied flow",
+    "description": "The label for category '4. Écoulement graduellement varié' in sidebar 'coursSidebar'"
   },
-  "sidebar.coursSidebar.category.6. Écoulement graduellement varié.link.generated-index.description": {
-    "message": "The backwater equation, classification of profiles, integration methods.",
-    "description": "The generated-index page description for category '6. Écoulement graduellement varié' in sidebar 'coursSidebar'"
+  "sidebar.coursSidebar.category.4. Écoulement graduellement varié.link.generated-index.description": {
+    "message": "Specific head and critical flow, the backwater equation, classification of profiles (M, S, C, H, A), solution methods.",
+    "description": "The generated-index page description for category '4. Écoulement graduellement varié' in sidebar 'coursSidebar'"
   },
-  "sidebar.coursSidebar.category.7. Ouvrages hydrauliques": {
-    "message": "7. Hydraulic structures",
-    "description": "The label for category '7. Ouvrages hydrauliques' in sidebar 'coursSidebar'"
+  "sidebar.coursSidebar.category.6. Ouvrages hydrauliques": {
+    "message": "6. Hydraulic structures",
+    "description": "The label for category '6. Ouvrages hydrauliques' in sidebar 'coursSidebar'"
   },
-  "sidebar.coursSidebar.category.7. Ouvrages hydrauliques.link.generated-index.description": {
+  "sidebar.coursSidebar.category.6. Ouvrages hydrauliques.link.generated-index.description": {
     "message": "Weirs, sills, gates, overfalls and transitions.",
-    "description": "The generated-index page description for category '7. Ouvrages hydrauliques' in sidebar 'coursSidebar'"
+    "description": "The generated-index page description for category '6. Ouvrages hydrauliques' in sidebar 'coursSidebar'"
   },
   "sidebar.coursSidebar.category.Travaux dirigés": {
     "message": "Problem sets",

@@ -1,0 +1,122 @@
+.wrapper {
+  --bw-ink: var(--ifm-color-emphasis-900);
+  --bw-muted: var(--ifm-color-emphasis-600);
+  --bw-surface: #2e6fdb;
+  --bw-critical: #e0383a;
+  --bw-normal: #16a34a;
+  --bw-structure: var(--ifm-color-emphasis-500);
+
+  margin: 1.5rem 0 2rem;
+}
+
+[data-theme='dark'] .wrapper {
+  --bw-surface: #6ea8fe;
+  --bw-critical: #ff6b6b;
+  --bw-normal: #4ade80;
+}
+
+.family {
+  margin-bottom: 1.25rem;
+}
+
+.familyTitle {
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.panel {
+  margin: 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-family: var(--ifm-font-family-base);
+}
+
+.bed {
+  stroke: var(--bw-ink);
+  stroke-width: 2.5;
+}
+
+.surface {
+  fill: none;
+  stroke: var(--bw-surface);
+  stroke-width: 2.5;
+}
+
+.critical {
+  stroke: var(--bw-critical);
+  stroke-width: 1.2;
+  stroke-dasharray: 6 4;
+}
+
+.normal {
+  stroke: var(--bw-normal);
+  stroke-width: 1.2;
+  stroke-dasharray: 6 4;
+}
+
+.criticalLabel {
+  fill: var(--bw-critical);
+  font-size: 11px;
+  font-style: italic;
+}
+
+.normalLabel {
+  fill: var(--bw-normal);
+  font-size: 11px;
+  font-style: italic;
+}
+
+.structure {
+  fill: var(--bw-structure);
+}
+
+.controlDot {
+  fill: var(--bw-ink);
+}
+
+.name {
+  fill: var(--bw-ink);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.caption {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.legend {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+}
+
+.legendSurface {
+  color: var(--bw-surface);
+  font-weight: 700;
+}
+
+.legendNormal {
+  color: var(--bw-normal);
+  font-weight: 700;
+}
+
+.legendCritical {
+  color: var(--bw-critical);
+  font-weight: 700;
+}

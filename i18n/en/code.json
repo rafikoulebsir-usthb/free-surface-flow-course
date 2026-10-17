@@ -35,12 +35,6 @@
   "outline.ch3.summary": {
     "message": "Chézy and Manning-Strickler, normal depth, channel design and the most efficient section."
   },
-  "outline.ch4.title": {
-    "message": "Channel geometry"
-  },
-  "outline.ch4.summary": {
-    "message": "Flow area, wetted perimeter, hydraulic radius and the usual sections: rectangular, trapezoidal, circular."
-  },
   "outline.ch5.title": {
     "message": "Hydraulic jump"
   },
