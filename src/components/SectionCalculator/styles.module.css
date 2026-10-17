@@ -1,0 +1,205 @@
+.figure {
+  --sc-ink: var(--ifm-color-emphasis-900);
+  --sc-muted: var(--ifm-color-emphasis-600);
+  --sc-line: var(--ifm-color-emphasis-300);
+  --sc-water: rgba(46, 111, 219, 0.22);
+  --sc-surface: #2e6fdb;
+  --sc-wetted: #d97706;
+
+  margin: 1.5rem 0 2rem;
+}
+
+[data-theme='dark'] .figure {
+  --sc-water: rgba(110, 168, 254, 0.25);
+  --sc-surface: #6ea8fe;
+  --sc-wetted: #fbbf24;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.tab,
+.tabActive {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--sc-line);
+  background: transparent;
+  color: var(--sc-ink);
+  cursor: pointer;
+}
+
+.tabActive {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  min-width: 180px;
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.inputWrap input {
+  font: inherit;
+  width: 7rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--sc-line);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--sc-ink);
+}
+
+.unit {
+  color: var(--sc-muted);
+  font-size: 0.85rem;
+}
+
+.error {
+  text-align: center;
+  color: var(--ifm-color-danger);
+  font-weight: 600;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+  display: block;
+  margin: 0 auto;
+  font-family: var(--ifm-font-family-base);
+  overflow: visible;
+}
+
+.water {
+  fill: var(--sc-water);
+}
+
+.wetted {
+  fill: none;
+  stroke: var(--sc-wetted);
+  stroke-width: 4;
+  stroke-linejoin: round;
+}
+
+.bank {
+  fill: none;
+  stroke: var(--sc-ink);
+  stroke-width: 2;
+}
+
+.surface {
+  stroke: var(--sc-surface);
+  stroke-width: 1.5;
+  stroke-dasharray: 6 4;
+}
+
+.dim {
+  fill: var(--sc-ink);
+  font-size: 12px;
+  font-style: italic;
+}
+
+.dimLine {
+  stroke: var(--sc-muted);
+  stroke-width: 1;
+}
+
+.area {
+  fill: var(--sc-surface);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.table {
+  margin: 0.75rem auto 0;
+  font-size: 0.9rem;
+  display: table;
+}
+
+.table td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.sep td {
+  border-top: 2px solid var(--sc-line);
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+  margin-top: 0.75rem;
+}
+
+.field input[type='range'] {
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+.manning {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.75rem 1.5rem;
+  max-width: 640px;
+  margin: 0 auto 0.75rem;
+  padding: 0.5rem 1rem 0.75rem;
+  border: 1px solid var(--sc-line);
+  border-radius: 10px;
+}
+
+.manning legend {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0 0.4rem;
+}
+
+.manning select {
+  font: inherit;
+  max-width: 20rem;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid var(--sc-line);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--sc-ink);
+}
+
+.strickler {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.main td {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
