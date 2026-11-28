@@ -244,33 +244,64 @@ $$
 
 **c. Nature de l'écoulement pour $i = 0{,}00012$**
 
-La profondeur $h = 0{,}914$ m est supérieure à la profondeur critique
-$h_c = 0{,}64$ m : l'écoulement est **fluvial**. Le canal est en outre à
-**pente faible** (type M), puisque $i = 0{,}00012 < i_c = 0{,}0028$.
+Le régime d'écoulement uniforme sous cette pente se juge sur le nombre de
+Froude calculé à la profondeur normale. On commence donc par déterminer $h_n$.
+
+*Profondeur normale.* Manning-Strickler s'écrit :
+
+$$
+Q = \frac{1}{n}\,S\,R_h^{2/3}\,i^{1/2} = \frac{1}{n}\,\frac{S^{5/3}}{P^{2/3}}\,i^{1/2}
+\qquad\text{avec}\quad S = (6{,}096 + h)\,h,\quad P = 6{,}096 + 2\sqrt2\,h
+$$
+
+On isole $S$, puis $h$, pour obtenir une relation de point fixe :
+
+$$
+S = \left(\frac{n\,Q}{\sqrt{i}}\right)^{3/5} P^{2/5}
+\quad\Longrightarrow\quad
+h = \frac{4{,}862\,\left(6{,}096 + 2\sqrt2\,h\right)^{2/5}}{6{,}096 + h}
+$$
+
+En partant de $h = 0{,}914$ m, les approximations successives donnent
+$1{,}646 \to 1{,}624 \to 1{,}625$, soit :
+
+$$
+h_n = 1{,}625\ \mathrm{m}
+$$
+
+*Nombre de Froude.* À cette profondeur :
+
+$$
+S_n = (6{,}096 + 1{,}625)\times1{,}625 = 12{,}54\ \mathrm{m^2}
+\qquad
+B_n = b + 2m\,h_n = 9{,}35\ \mathrm{m}
+$$
+
+$$
+U_n = \frac{Q}{S_n} = \frac{10{,}19}{12{,}54} = 0{,}81\ \mathrm{m/s}
+\qquad
+H_h = \frac{S_n}{B_n} = 1{,}34\ \mathrm{m}
+$$
+
+$$
+\mathrm{Fr} = \frac{U_n}{\sqrt{g\,H_h}} = \frac{0{,}81}{\sqrt{9{,}81\times1{,}34}} = 0{,}22
+$$
+
+Comme $\mathrm{Fr} < 1$, l'écoulement est **fluvial**. On retrouve la même
+conclusion en comparant les profondeurs ($h_n = 1{,}625$ m $> h_c = 0{,}64$ m)
+ou les pentes ($i = 0{,}00012 < i_c = 0{,}0028$) : le canal est à **pente
+faible**.
 
 :::note Correction du corrigé PDF
-Le corrigé PDF conclut ici à un écoulement « torrentiel ». C'est une coquille :
-$h > h_c$ (et $i < i_c$) correspond à un écoulement fluvial.
+Le corrigé PDF conclut ici à un écoulement « torrentiel » et passe directement
+à la position de la profondeur par rapport à $h_c$. C'est une coquille : avec
+$\mathrm{Fr} = 0{,}22 < 1$, l'écoulement est fluvial.
 :::
 
 **d. Forme de la courbe de remous pour $i = 0{,}00012$**
 
-Il faut la profondeur normale sous cette pente. Manning-Strickler s'écrit :
-
-$$
-Q = \frac{1}{n}\,S\,R_h^{2/3}\,i^{1/2} = \frac{1}{n}\,\frac{S^{5/3}}{P^{2/3}}\,i^{1/2}
-\qquad\text{avec}\quad P = 6{,}096 + 2\sqrt2\,h
-$$
-
-On isole $P$ pour obtenir une relation de point fixe :
-
-$$
-P = \left[\frac{1}{n\,Q}\,S^{5/3}\,i^{1/2}\right]^{3/2}
-\quad\Longrightarrow\quad
-h = \frac{\left[\dfrac{1}{n\,Q}\,S^{5/3}\,i^{1/2}\right]^{3/2} - 6{,}096}{2\sqrt2}
-$$
-
-Les approximations successives donnent $h_n = 1{,}625$ m. On a donc :
+On compare la profondeur $h = 0{,}914$ m aux profondeurs critique et normale
+(cette dernière calculée en c) :
 
 $$
 h_c = 0{,}64\ \mathrm{m} \;<\; h = 0{,}914\ \mathrm{m} \;<\; h_n = 1{,}625\ \mathrm{m}
